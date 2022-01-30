@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  word-spacing: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.image {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.one {
+  background-image: url("https://i.gifer.com/1254.gif");
+}
+
+.two {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/029/553/104/original/ronald-van-egdom-terrariahell.gif?1597917748");
+}
+
+.text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border: 10px solid #f1f1f1;
+  position: relative; /* Stay fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 400px;
+  padding: 20px;
+}
